@@ -46,13 +46,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Questions <i class="icon-bug"></i><b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#q1">Question 1</a></li>
-                <li><a href="#">Question 2</a></li>
-                <li><a href="#">Question 3</a></li>
-                <li><a href="#">Question 4</a></li>
+                <li><a href="#q2">Question 2</a></li>
+                <li><a href="#q3">Question 3</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
           </ul>
@@ -64,10 +60,10 @@
     <a name="home"></a>
     <div class="jumbotron">
       <div class="container">
-        <h1>Project Uno</h1>
-        <h2>This is the website for my first project in Inf2C.</h2>
+        <h1>Gabriel West</h1>
+        <h2>s1365736 Project 1</h2>
+        <h3>django-cms</h3>
         <p>I chose to work on a project called django-cms, which is a content management system built on top of django/python.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ipsum sit tenetur omnis ullam quibusdam laborum facilis odit voluptatibus ea voluptates hic debitis fugit eos beatae blanditiis praesentium dolorum? Rerum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, distinctio, molestiae, ab explicabo corporis temporibus amet eveniet unde magnam quaerat doloribus ut dolorum eos. Molestias, architecto cumque sunt repellendus quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, impedit, voluptatibus quaerat esse sint odit dolorum ut magnam velit voluptatem unde deserunt quibusdam animi similique illo! Cupiditate sit explicabo maxime!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, nobis dolorum quis nesciunt debitis aliquid labore natus? Eaque, aut, laudantium sed sit ullam ab exercitationem voluptatem nisi non minus quos!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, itaque, sed aliquid quaerat debitis commodi recusandae quas modi consectetur perspiciatis autem maxime quibusdam neque beatae numquam inventore nihil repellat illo!
         <p><a class="btn btn-small btn-primary" href="https://www.django-cms.org/en/" alt="django-website">Learn more &raquo;</a></p>
       </div>
     </div>
@@ -75,45 +71,88 @@
       <div class="row">
         <h2><a name="q1"></a>Question 1</h2>
         <h4>Why I picked django-cms</h4>
-        <p>I'm going to be honest... I picked a python project because I had a very </p>
+        <p>I have worked with two or three different cms packages in the past (concrete5, wordpress, and joomla), and I was always sort of agitated by them. When they weren't generating bloated, obfuscated html, they were filling my database with artifacts. To make matters worse, plugins and extensions for these projects are written primarily in php. I see django-cms as a powerful alternative to those tools. Django also claims to adhere to the DRY (Don't Repeat Yourself) and python PEP8 style guides, which is nice</p>
+        <p>I'm interested in exploring the inner workings of a cms, with the added benefit that as I exlpore, I will be improving my proficiency with python, picking up a new SDK (django), and getting experience with a tool that I will very likely use for my own web creations.</p>
+        <h4>What is django-cms for?</h4>
+        <p>django-cms helps developers create websites that are dynamic and maintanable by end-users and developers alike. It supervises database operations using python-mysql, provides a nice graphical front-end for content management, and acts as a platform for django plugins.</p>
         <h4>Getting it to run</h4>
-        Steps taken
-        <ol><li>Fork the django-cms repo on github</li>
-          <li>Clone the source to my mac</li>
-          <li>Discover that the version of python that ships with Mac is shit</li>
-          <li>install homebrew (package management)</li>
-          <li>use homebrew to install python 2.7.5</li>
-          <li>install pip (python module management)</li>
-          <li>use pip to install virtualenv and virtualenvwrapper</li>
-          <li>create a virtual environment in django-cms/</li>
-          <li>pip install all the django-cms dependencies</li>
-          <li>run the end-to-end django-cms test</li>
-          <li>modify/run the project creation source script to create a custom new project (pictured)</li></ol>
+        <p>I'm going to be honest... I picked a python project because I had this preconception that a python project would be easy to build. While this is still technically true, I ran into a number of issues when getting things up and running.</p>
+        <dl class="dl-horizontal">
+          <dt>Hardware</dt>
+            <dd>White Macbook 2009 Dual Core with 8g of RAM</dd>
+          <dt>OS</dt>
+            <dd>MacOSX Lion</dd>
+          <dt>Python version</dt>
+            <dd>Python 2.6.6</dd>
+          <dt>Dependencies</dt>
+            <dd>
+              <ul class="unstyled">
+                <li>Python 2.5 (or a higher release of 2.x).</li>
+                <li>Django 1.4.5, 1.5 or higher</li>
+                <li>South 0.7.2 or higher</li>
+                <li>PIL 1.1.6 or higher</li>
+                <li>django-classy-tags 0.3.4.1 or higher</li>
+                <li>django-mptt 0.5.2 (strict due to API compatibility issues)</li>
+                <li>django-sekizai 0.6.1 or higher</li>
+                <li>html5lib 0.90 or higher</li>
+                <li>django-i18nurls (if using django 1.3.X)</li>
+                <li>An installed and working instance of one of the databases listed in the Databases section.</li>
+              </ul>
+            </dd>
+            
+        </dl>
+        <h4>Steps taken</h4>
+        <dl>
+          <dt>Fork the django-cms repo on github</dt>
+            <dd>Also added an upstream remote, so that I can pull changes from the original repo</dd>
+          <dt>Clone the source to my mac</dt>
+          <dt>Discover that the version of python that ships with Mac is shit</dt>
+            <dd>Macintosh packages a version of python that is slightly outdated, and known to introduce bugs in some situation. Additionally, this python squashes all other isntallations of python, making it difficult to create python virtual environments.</dd>
+          <dt>Install homebrew (package management)</dt>
+            <dd>homebrew solves this problem by allowing you to install the official python distribution, and then overwrite linkages to the macosx python. I did some testing, and this doesn't appear to break other python projects</dd>
+          <dt>Use homebrew to install python 2.7.5 and pip</dt>
+            <dd>homebrew is a package distribution application for mac. Something that Mac desperatley lacks. Using homebrew, I install pip for python module management</dd>
+          <dt>Use pip to install virtualenv and virtualenvwrapper</dt>
+            <dd>virtualenv will allow me to test bugs accross versions of django-cms and all its dependencies. It also lets me go crazy installing python modules without having to worry about jacking something up.</dd>
+          <dd>pip install all the django-cms dependencies</dt>
+            <dd>Fortunately, django-cms devs provide a text file that I can use to recursively install all dependencies for a particular version of django-cms.
+            </dd>
+          <dt>Run the end-to-end django-cms test</dt>
+            <dd>django-cms also provides a tes script that I can execute to make sure everything has been assembled correctly
+            </dd>
+          <dt>Modify/run the project creation source script to create a custom new django-cms project (pictured)</dt>
+            <dd>After a little bit of exploring, I am able to modify the script responsible for creating new projects.</dd>
+            </dd>  
+          </dl>
         <img class="img-rounded" src="img/it_worked.png"\>
       </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+      <div class="container">
+        <div class="row">
+          <h2><a name="q2"></a>Question 2</h2>
+          <h4>django-cms hierarchy</h4>
+          <img class="img-rounded" src="img/hierarchy.png"\n>
+          <p>django-cms is orginized, as many python projects, into a hierarchy of modules. The meat of the project resides in the cms module/directory, with supporting modules mostly sitting just above that in the django-cms module (with the exception of all utils). There are a number of important scripts in django-cms such as the setup script and testing.</p>
+          <p>Within the cms module, the core functionality is broken up into many submodules</p>
+          <h4>Languages</h4>
+          <p>It's worth noting that django-cms is as far as I can tell pure python. Django must be responsible for generating the html and javascript (although I haven't yet confirmed this)</p>
         </div>
       </div>
 
-      <hr>
+      <div class="container">
+        <div class="row">
+        <h2><a name="q3"></a>Question 3</h2>
+        <h4>Documentation</h4>
+        <p>django-cms uses Sphinx to maintain their documentation, and it seems to be working pretty well for them, but from what I have read on the IRC channel and in the google group for developers, new devs are having a hard time with outdated documentation. django-cms recently released a beta version 3, with some pretty drastic refactoring. Consequently, many of the tutorials have become outdated.</p>
+        <h4>Starting Fresh</h4>
+        <p>Currently, the method for creating a new django-cms projects involves a fairly hairy process of editing conf files. Granted django-cms is marketed as being strictly for devs, it still seems like it would be nice (and not to difficult) to make this process interactive and graphical.</p>
+        <p>The default/test project front page could potentially be extended to include a wizard that guides newcomers through the process of enabling installed plugins, setting certain directory variables, and then pass this information on the the users' configure.py using a json file and the already-in-place configure() method.</p>
+        <h4>Internationalization</h4>
+        <p>Another strong feature of django-cms is support for internationalization. Judging by the github issues, this is an area that is very often used, and still pretty buggy.</p>
+        </div>
+      </div>
 
+
+      <hr>
       <footer>
         <p>&copy; Gabriel West 2013</p>
         <p><small>This web page was built using Html5 Boilerplate. Visit the <a href="http://html5boilerplate.com/">Html5 Boilerplate website</a> for more info.</small></p>
