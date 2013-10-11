@@ -1,0 +1,333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prefi",
+				"prefixd"
+			],
+			[
+				"ex",
+				"exercise_to_run"
+			],
+			[
+				"exer",
+				"exercise_str"
+			],
+			[
+				"exerc",
+				"exercise2"
+			],
+			[
+				"reg_",
+				"reg_test"
+			],
+			[
+				"resul",
+				"result_1"
+			],
+			[
+				"res",
+				"result_1"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"split",
+				"split_string"
+			],
+			[
+				"sen",
+				"sesor_string"
+			],
+			[
+				"ball",
+				"ballrect"
+			],
+			[
+				"p_",
+				"p_email"
+			],
+			[
+				"paren",
+				"parent_names"
+			],
+			[
+				"pare",
+				"parent_name"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"parents",
+				"parents"
+			],
+			[
+				"parent",
+				"parents"
+			],
+			[
+				"Pare",
+				"Parent"
+			],
+			[
+				"nexu",
+				"nexus-s"
+			],
+			[
+				"a",
+				"a_split"
+			],
+			[
+				"b",
+				"b_split"
+			],
+			[
+				"bad",
+				"bad_index"
+			],
+			[
+				"not",
+				"not_index"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gabriel/Documents/Edinburgh/INF2C/project1/404.html",
+		"/Users/gabriel/for_grt.gpg",
+		"/Users/gabriel/my_key",
+		"/Users/gabriel/mypygame/test.py",
+		"/Users/gabriel/mypygame/chomp/test.py",
+		"/Users/gabriel/gnupg-1.4.14/README",
+		"/Users/gabriel/mypygame/chomp.py",
+		"/Users/gabriel/Documents/Edinburgh/INF2A/labs/__init__.py",
+		"/Users/gabriel/google-python-exercises/logpuzzle/solution/logpuzzle.py",
+		"/Users/gabriel/google-python-exercises/babynames/solution/babynames.py",
+		"/Users/gabriel/Documents/Edinburgh/INF2A/labs/lab1/lab1exercises.py",
+		"/Users/gabriel/Documents/testing.html",
+		"/Users/gabriel/bulk.csv.gpg",
+		"/Users/gabriel/mypygame/pykhepera.py",
+		"/Users/gabriel/bulkey2/bulkey2.py",
+		"/Users/gabriel/bulkey2.py",
+		"/Users/gabriel/kittens/manifest.json",
+		"/Users/gabriel/angular-phonecat/app/js/controllers.js",
+		"/Users/gabriel/Desktop/ship.stl",
+		"/Users/gabriel/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/gabriel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/gabriel/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/gabriel/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/gabriel/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/Users/gabriel/google-python-exercises/basic/string2.py",
+		"/Users/gabriel/parents_counts.dat",
+		"/Users/gabriel/google-python-exercises/basic/string1.py",
+		"/Users/gabriel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/gabriel/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/gabriel/google-python-exercises/basic/thing.py"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bottom",
+			"result",
+			"match",
+			"result_1",
+			"sesor_string",
+			"writer",
+			"email",
+			"match",
+			"pname",
+			"records",
+			"record_out",
+			"record_in",
+			"csvfile_out",
+			"csvfile_in",
+			"50.00",
+			"50",
+			"50.00",
+			"http://www.edinburghbicycle.com/products/focus-izalco-chrono-2-0-ultegra-di2-13",
+			"http://www.edinburghbicycle.com/products/blank-icon-13",
+			"http://www.edinburghbicycle.com/products/mongoose-thrive-12?bct=browse%2fbicycles",
+			"escape",
+			"super",
+			"escape",
+			"super+esc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"test",
+				"test.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Edinburgh/INF2C/gitgutter.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
